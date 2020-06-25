@@ -1,0 +1,68 @@
+.bgs{
+    width: 100%;
+    min-height: 100%;
+    background: #f0f2f5 !important;
+
+}
+
+.rowL,.rowR{
+    background: #ffffff;
+    min-height: 100vh;
+    margin-bottom: 16px;
+    padding: 16px !important;
+    box-sizing: border-box;
+}
+.adds{
+    text-align: center;
+    font-weight: 600;
+    font-size:1rem;
+    line-height: 32px;
+    height: 32px;
+    width: 100%;
+    color: rgba(000,000,000,0.85) !important;
+    margin-bottom: 16px;
+}
+.btns{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.ant-page-header{
+    border: none !important;
+}
+
+
+/* 模块2 */
+.askTitle{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 22px;
+}
+
+.askYj{
+    width: 100%;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.upWord,.ques{
+    margin-bottom: 10px;
+}
+
+.avatar-uploader > .ant-upload {
+    width: 80px;
+    height: 80px;
+}
+
+.doSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.ant-btn > .anticon + span, .ant-btn > span + .anticon {
+    margin-left: 3px;
+}
