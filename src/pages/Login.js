@@ -40,14 +40,14 @@ class Login extends Component{
     
     //登陆失败执行
     onFinishFailed = errorInfo => {
-        console.log('Failed:', errorInfo);
+        console.log('Fa:', errorInfo);
     };
 
     render(){
 
         const layout = {
-            labelCol: { span: 8 },
-            wrapperCol: { span: 12 },
+            labelCol: { span: 9 },
+            wrapperCol: { span: 11 },
         };
 
         const jzLayout = {
